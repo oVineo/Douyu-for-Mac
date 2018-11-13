@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221F3D64219B1B2000C64318 /* RefreshButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D47219B1B1F00C64318 /* RefreshButton.m */; };
+		221F3D65219B1B2000C64318 /* EnterFullScreenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D49219B1B1F00C64318 /* EnterFullScreenButton.m */; };
+		221F3D66219B1B2000C64318 /* PinButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D4B219B1B1F00C64318 /* PinButton.m */; };
+		221F3D67219B1B2000C64318 /* AnchorMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D4C219B1B2000C64318 /* AnchorMenu.m */; };
+		221F3D68219B1B2000C64318 /* VideoSelectionPopovers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221F3D4D219B1B2000C64318 /* VideoSelectionPopovers.xib */; };
+		221F3D69219B1B2000C64318 /* DanmuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D50219B1B2000C64318 /* DanmuButton.m */; };
+		221F3D6A219B1B2000C64318 /* InnerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D52219B1B2000C64318 /* InnerButton.m */; };
+		221F3D6B219B1B2000C64318 /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D56219B1B2000C64318 /* PlayButton.m */; };
+		221F3D6C219B1B2000C64318 /* VolSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D59219B1B2000C64318 /* VolSlider.m */; };
+		221F3D6D219B1B2000C64318 /* VolumeSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D5A219B1B2000C64318 /* VolumeSliderCell.m */; };
+		221F3D6E219B1B2000C64318 /* VideoSelectionPopovers.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D5B219B1B2000C64318 /* VideoSelectionPopovers.m */; };
+		221F3D6F219B1B2000C64318 /* QualityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D5D219B1B2000C64318 /* QualityButton.m */; };
+		221F3D70219B1B2000C64318 /* VolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D5E219B1B2000C64318 /* VolButton.m */; };
+		221F3D71219B1B2000C64318 /* AnchorMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D60219B1B2000C64318 /* AnchorMenuItem.m */; };
+		221F3D72219B1B2000C64318 /* Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F3D61219B1B2000C64318 /* Parameters.m */; };
 		A845774C02B76C57257ECAEA /* libPods-Douyu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F4F262717B4A242D283804 /* libPods-Douyu.a */; };
 		B05DB3722170862400B640AB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C083921F765BC400CF286F /* OpenGL.framework */; };
 		B0735FC0216DD3A90087F28E /* libmpv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0735FBF216DD3A90087F28E /* libmpv.dylib */; };
@@ -53,6 +68,35 @@
 
 /* Begin PBXFileReference section */
 		133E00145D6C7423C81F9282 /* Pods-Douyu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douyu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douyu/Pods-Douyu.debug.xcconfig"; sourceTree = "<group>"; };
+		221F3D47219B1B1F00C64318 /* RefreshButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshButton.m; sourceTree = "<group>"; };
+		221F3D48219B1B1F00C64318 /* VolSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolSlider.h; sourceTree = "<group>"; };
+		221F3D49219B1B1F00C64318 /* EnterFullScreenButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterFullScreenButton.m; sourceTree = "<group>"; };
+		221F3D4A219B1B1F00C64318 /* VolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolButton.h; sourceTree = "<group>"; };
+		221F3D4B219B1B1F00C64318 /* PinButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinButton.m; sourceTree = "<group>"; };
+		221F3D4C219B1B2000C64318 /* AnchorMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorMenu.m; sourceTree = "<group>"; };
+		221F3D4D219B1B2000C64318 /* VideoSelectionPopovers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoSelectionPopovers.xib; sourceTree = "<group>"; };
+		221F3D4E219B1B2000C64318 /* PlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayButton.h; sourceTree = "<group>"; };
+		221F3D4F219B1B2000C64318 /* QualityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QualityButton.h; sourceTree = "<group>"; };
+		221F3D50219B1B2000C64318 /* DanmuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmuButton.m; sourceTree = "<group>"; };
+		221F3D51219B1B2000C64318 /* VolumeSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeSliderCell.h; sourceTree = "<group>"; };
+		221F3D52219B1B2000C64318 /* InnerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerButton.m; sourceTree = "<group>"; };
+		221F3D53219B1B2000C64318 /* InnerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerButton.h; sourceTree = "<group>"; };
+		221F3D54219B1B2000C64318 /* AnchorMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorMenu.h; sourceTree = "<group>"; };
+		221F3D55219B1B2000C64318 /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		221F3D56219B1B2000C64318 /* PlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayButton.m; sourceTree = "<group>"; };
+		221F3D57219B1B2000C64318 /* VideoSelectionPopovers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSelectionPopovers.h; sourceTree = "<group>"; };
+		221F3D58219B1B2000C64318 /* EnterFullScreenButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterFullScreenButton.h; sourceTree = "<group>"; };
+		221F3D59219B1B2000C64318 /* VolSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolSlider.m; sourceTree = "<group>"; };
+		221F3D5A219B1B2000C64318 /* VolumeSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeSliderCell.m; sourceTree = "<group>"; };
+		221F3D5B219B1B2000C64318 /* VideoSelectionPopovers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoSelectionPopovers.m; sourceTree = "<group>"; };
+		221F3D5C219B1B2000C64318 /* RefreshButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshButton.h; sourceTree = "<group>"; };
+		221F3D5D219B1B2000C64318 /* QualityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QualityButton.m; sourceTree = "<group>"; };
+		221F3D5E219B1B2000C64318 /* VolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolButton.m; sourceTree = "<group>"; };
+		221F3D5F219B1B2000C64318 /* AnchorMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorMenuItem.h; sourceTree = "<group>"; };
+		221F3D60219B1B2000C64318 /* AnchorMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorMenuItem.m; sourceTree = "<group>"; };
+		221F3D61219B1B2000C64318 /* Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parameters.m; sourceTree = "<group>"; };
+		221F3D62219B1B2000C64318 /* PinButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinButton.h; sourceTree = "<group>"; };
+		221F3D63219B1B2000C64318 /* DanmuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmuButton.h; sourceTree = "<group>"; };
 		51D249B87DE465548D9F4F6F /* Pods-Douyu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douyu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douyu/Pods-Douyu.release.xcconfig"; sourceTree = "<group>"; };
 		93F4F262717B4A242D283804 /* libPods-Douyu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Douyu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0735FBF216DD3A90087F28E /* libmpv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpv.dylib; path = ../../../../usr/local/lib/libmpv.dylib; sourceTree = DEVELOPER_DIR; };
@@ -151,6 +195,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221F3D46219B1B0700C64318 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				221F3D54219B1B2000C64318 /* AnchorMenu.h */,
+				221F3D4C219B1B2000C64318 /* AnchorMenu.m */,
+				221F3D5F219B1B2000C64318 /* AnchorMenuItem.h */,
+				221F3D60219B1B2000C64318 /* AnchorMenuItem.m */,
+				221F3D63219B1B2000C64318 /* DanmuButton.h */,
+				221F3D50219B1B2000C64318 /* DanmuButton.m */,
+				221F3D58219B1B2000C64318 /* EnterFullScreenButton.h */,
+				221F3D49219B1B1F00C64318 /* EnterFullScreenButton.m */,
+				221F3D53219B1B2000C64318 /* InnerButton.h */,
+				221F3D52219B1B2000C64318 /* InnerButton.m */,
+				221F3D55219B1B2000C64318 /* Parameters.h */,
+				221F3D61219B1B2000C64318 /* Parameters.m */,
+				221F3D62219B1B2000C64318 /* PinButton.h */,
+				221F3D4B219B1B1F00C64318 /* PinButton.m */,
+				221F3D4E219B1B2000C64318 /* PlayButton.h */,
+				221F3D56219B1B2000C64318 /* PlayButton.m */,
+				221F3D4F219B1B2000C64318 /* QualityButton.h */,
+				221F3D5D219B1B2000C64318 /* QualityButton.m */,
+				221F3D5C219B1B2000C64318 /* RefreshButton.h */,
+				221F3D47219B1B1F00C64318 /* RefreshButton.m */,
+				221F3D57219B1B2000C64318 /* VideoSelectionPopovers.h */,
+				221F3D5B219B1B2000C64318 /* VideoSelectionPopovers.m */,
+				221F3D4D219B1B2000C64318 /* VideoSelectionPopovers.xib */,
+				221F3D4A219B1B1F00C64318 /* VolButton.h */,
+				221F3D5E219B1B2000C64318 /* VolButton.m */,
+				221F3D48219B1B1F00C64318 /* VolSlider.h */,
+				221F3D59219B1B2000C64318 /* VolSlider.m */,
+				221F3D51219B1B2000C64318 /* VolumeSliderCell.h */,
+				221F3D5A219B1B2000C64318 /* VolumeSliderCell.m */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
 		7BB58B9E3470FEFF12B44A02 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +284,7 @@
 		D2B813321F724D1C00EF526D /* Douyu */ = {
 			isa = PBXGroup;
 			children = (
+				221F3D46219B1B0700C64318 /* UIElements */,
 				D2B876451F73886900AE844E /* Resources */,
 				D2B876441F73840E00AE844E /* Frameworks */,
 				D2B8134F1F72664200EF526D /* Model */,
@@ -384,7 +465,7 @@
 				TargetAttributes = {
 					D2B8132F1F724D1C00EF526D = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UP2GKJVH3B;
+						DevelopmentTeam = 54QP8JE33A;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -419,6 +500,7 @@
 			files = (
 				D2B876941F7389F400AE844E /* loading.gif in Resources */,
 				D2B8133D1F724D1C00EF526D /* Assets.xcassets in Resources */,
+				221F3D68219B1B2000C64318 /* VideoSelectionPopovers.xib in Resources */,
 				D2B813401F724D1C00EF526D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,41 +533,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221F3D72219B1B2000C64318 /* Parameters.m in Sources */,
 				D21DB3311F74E6EB00A5E5B1 /* AsyncSocket.m in Sources */,
 				D21DB3321F74E6EB00A5E5B1 /* AuthSocket.m in Sources */,
 				D213B2791FECB9A8009F5123 /* DYRoomHistoryModel.m in Sources */,
 				D21DB3331F74E6EB00A5E5B1 /* DanmuModel.m in Sources */,
 				D21DB3341F74E6EB00A5E5B1 /* DanmuSocket.m in Sources */,
+				221F3D6B219B1B2000C64318 /* PlayButton.m in Sources */,
+				221F3D6A219B1B2000C64318 /* InnerButton.m in Sources */,
 				D21DB3351F74E6EB00A5E5B1 /* DouyuTVSocket.m in Sources */,
 				D21DB3361F74E6EB00A5E5B1 /* RegexKitLite.m in Sources */,
 				D21DB3371F74E6EB00A5E5B1 /* ServerModel.m in Sources */,
+				221F3D6E219B1B2000C64318 /* VideoSelectionPopovers.m in Sources */,
 				D21DB3381F74E6EB00A5E5B1 /* SocketData.m in Sources */,
 				D213B2761FECAA17009F5123 /* DYRoomHistoryData.m in Sources */,
 				D2C083851F756A8900CF286F /* PlayerWindow.m in Sources */,
 				D21DB3301F74E53D00A5E5B1 /* DYDanmuProvider.m in Sources */,
 				D2BD055C1F73CBB40066ABDD /* BarrageCanvas.m in Sources */,
+				221F3D66219B1B2000C64318 /* PinButton.m in Sources */,
+				221F3D64219B1B2000C64318 /* RefreshButton.m in Sources */,
 				D2C083911F76584300CF286F /* MpvClientOGLView.m in Sources */,
 				D2BD055E1F73CBB40066ABDD /* BarrageDescriptor.m in Sources */,
 				D2BD05601F73CBB40066ABDD /* BarrageRenderer.m in Sources */,
 				D2BD05611F73CBB40066ABDD /* BarrageSpriteFactory.m in Sources */,
 				D2BD05621F73CBB40066ABDD /* BarrageLoader.m in Sources */,
+				221F3D70219B1B2000C64318 /* VolButton.m in Sources */,
 				D2BD05631F73CBB40066ABDD /* BarrageFloatImageSprite.m in Sources */,
 				D2BD05641F73CBB40066ABDD /* BarrageFloatSprite.m in Sources */,
+				221F3D6D219B1B2000C64318 /* VolumeSliderCell.m in Sources */,
 				D2BD05651F73CBB40066ABDD /* BarrageFloatTextSprite.m in Sources */,
 				D2BD05661F73CBB40066ABDD /* BarrageSprite.m in Sources */,
+				221F3D65219B1B2000C64318 /* EnterFullScreenButton.m in Sources */,
+				221F3D69219B1B2000C64318 /* DanmuButton.m in Sources */,
 				D2BD05671F73CBB40066ABDD /* BarrageSpriteUtility.m in Sources */,
 				D2BD05681F73CBB40066ABDD /* BarrageWalkImageSprite.m in Sources */,
 				D2BD05691F73CBB40066ABDD /* BarrageWalkSprite.m in Sources */,
 				D2BD056A1F73CBB40066ABDD /* BarrageWalkTextSprite.m in Sources */,
 				D2BD056C1F73CBB40066ABDD /* NSLabel.m in Sources */,
+				221F3D67219B1B2000C64318 /* AnchorMenu.m in Sources */,
 				D2BD056D1F73CBB40066ABDD /* NSValue+iOS.m in Sources */,
 				D2BD056E1F73CBB40066ABDD /* NSView+UIView.m in Sources */,
 				D2B8133B1F724D1C00EF526D /* ViewController.m in Sources */,
 				D2B813381F724D1C00EF526D /* main.m in Sources */,
+				221F3D6C219B1B2000C64318 /* VolSlider.m in Sources */,
+				221F3D71219B1B2000C64318 /* AnchorMenuItem.m in Sources */,
 				D2B813351F724D1C00EF526D /* AppDelegate.m in Sources */,
 				D2B876391F735A2D00AE844E /* NSString+InfoGet.m in Sources */,
 				D2B813841F7268D700EF526D /* DYRoomInfo.m in Sources */,
 				D2B876401F73701300AE844E /* PlayerViewController.m in Sources */,
+				221F3D6F219B1B2000C64318 /* QualityButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +713,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UP2GKJVH3B;
+				DEVELOPMENT_TEAM = 54QP8JE33A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				HEADER_SEARCH_PATHS = /usr/local/include;
@@ -642,7 +738,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UP2GKJVH3B;
+				DEVELOPMENT_TEAM = 54QP8JE33A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				HEADER_SEARCH_PATHS = /usr/local/include;
