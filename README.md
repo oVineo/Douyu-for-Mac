@@ -1,35 +1,15 @@
-# Douyu-for-Mac
-非官方Mac版斗鱼直播播放器，实时弹幕显示
+# Douyu-for-Mac 美化版
+自己写的界面和优化，逐渐加入各种功能
 
-![](http://ww2.sinaimg.cn/large/0060lm7Tly1fjsi5xj9czj30qo0g8dpt.jpg)
-
-# Useage
-### mpv.conf
-- 自定义 mpv.conf 放入 `~/Library/Application Support/Douyu/conf/` 文件夹下
-### mpv键位控制
-- [mpv键盘使用说明](https://mpv.io/manual/master/#keyboard-control)  
-- 9 / 0 控制音量
-- v 键开启关闭弹幕
-- T 键开启关闭 stay-on-top
-
-### 油猴脚本
-[Mac斗鱼播放器油猴脚本](https://greasyfork.org/zh-CN/scripts/36608-mac斗鱼播放器)
-![](http://ww2.sinaimg.cn/large/0060lm7Tly1fmsubfqgvtj30mv07kgmz.jpg)
-
-# Install
-## 下载最新 releases 包
-[Douyu.zip](https://github.com/Grayon/Douyu-for-Mac/releases)
-
-# 支持一下
-
-微信
-
-![wechat](http://ww2.sinaimg.cn/large/0060lm7Tly1fmsuswk8iaj304h04fq2z.jpg)
+Forked from [Grayon/Douyu-for-Mac](https://github.com/Grayon/Douyu-for-Mac)
 
 
+# 目前已经实现
 
-支付宝
+- 仿斗鱼风格 UI 界面
+- 状态栏图标
 
-![alipay](http://ww1.sinaimg.cn/large/0060lm7Tly1fmsuswjai9j304h04gq2y.jpg)
+# 即将开始的工作
 
-
+- 修复BUG
+- 主播上线通知
